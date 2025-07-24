@@ -25,8 +25,39 @@
       "addressCountry": "GB"
     },
     "telephone": "+44 1638 661181",
+    "servesCuisine": [
+      "British",
+      "European",
+      "Vegetarian Friendly",
+      "Vegan Options",
+      "Gluten Free Options"
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "16:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday"],
+        "opens": "09:00",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday"],
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ],
     "menu": "https://www.thepantryfinefoods.com/menu",
     "acceptsReservations": "True",
+    "sameAs": [
+      "https://www.instagram.com/thepantrynewmarket",
+      "https://www.facebook.com/ThePantryNewmarket"
+    ],
     "keywords": [
       "The Pantry Newmarket",
       "Newmarket restaurant",
@@ -42,18 +73,195 @@
       "vegan friendly restaurant",
       "gluten free options",
       "best breakfast Newmarket",
+      "duck confit Newmarket",
+      "soft shell crab taco",
+      "club sandwich recommendation",
+      "family friendly restaurant Suffolk",
+      "Lisa at The Pantry",
+      "friendly staff Newmarket",
+      "Leia service",
+      "Liam waiter",
+      "outdoor seating restaurant Newmarket",
+      "post-race dining Newmarket",
       "cocktail bar Newmarket",
       "Newmarket evening dining",
       "best cocktails Newmarket",
-      "post-race dining Newmarket",
+      "cakes to take away",
+      "Newmarket locals favourite",
+      "window seating",
+      "accommodates allergies",
+      "dog friendly restaurant",
+      "places to eat near Newmarket Races",
+      "breakfast near Newmarket Racecourse",
+      "restaurants near Bury St Edmunds",
+      "restaurants near Ely",
       "restaurants near Cambridge",
-      "event catering Newmarket"
+      "recommended by Michelin star chef",
+      "Michelin chef Daniel Clifford",
+      "Tripadvisor top rated Newmarket",
+      "private hire venue Newmarket",
+      "event catering Newmarket",
+      "Pudding Night Newmarket",
+      "Tapas Night Newmarket",
+      "Burger Night Newmarket",
+      "Kids Eat Free Newmarket"
+    ],
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Outdoor seating",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Dog friendly",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Family-friendly",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Allergy-aware kitchen",
+        "value": true
+      }
+    ],
+    "hasMenuItem": [
+      {
+        "@type": "MenuItem",
+        "name": "Duck (Special)",
+        "description": "Slow-cooked duck with tender meat that slips off the bone, beautifully presented with seasonal vegetables."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Soft Shell Crab Taco",
+        "description": "Served with guacamole, jalapeño salsa, sour cream and a summer twist."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Flatbread",
+        "description": "A Mediterranean-style dish featuring tender lamb, salad and zesty dressing on a warm flatbread."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Club Sandwich",
+        "description": "A local favourite — stacked layers of grilled chicken, crispy bacon, lettuce and tomato."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Picnic Board (To Share)",
+        "description": "A curated selection of savoury bites perfect for sharing, including meats, cheese and dips."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Hugo Spritz",
+        "description": "A refreshing elderflower and prosecco cocktail, perfect for sunny afternoons on the terrace."
+      }
+    ],
+    "event": [
+      {
+        "@type": "Event",
+        "name": "Pudding Night",
+        "startDate": "2025-08-05T18:30",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "description": "Starter, main course, and six delicious desserts prepared by in-house baker Joao — all for just £29.",
+        "offers": {
+          "@type": "Offer",
+          "price": "29.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "Event",
+        "name": "Burger Night",
+        "startDate": "2025-07-30T18:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "description": "Every Wednesday — enjoy two delicious courses and a side for just £20 per person.",
+        "offers": {
+          "@type": "Offer",
+          "price": "20.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "Event",
+        "name": "Tapas Night",
+        "startDate": "2025-07-25T18:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "description": "Every Friday — enjoy delicious small plates to share, paired with wine and cocktails."
+      },
+      {
+        "@type": "Event",
+        "name": "Kids Eat Free (Summer Offer)",
+        "startDate": "2025-07-21",
+        "endDate": "2025-09-04",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "description": "This summer, kids eat free at The Pantry! One child gets two courses free per adult main meal or lunch sandwich. Just mention 'Kids Eat Free'."
+      }
+    ],
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Janice H"
+        },
+        "reviewBody": "The duck was so tender and slipped right off the bone. The soft crab taco was delicious, and the presentation was incredible. Leia was fantastic as always!",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cole D"
+        },
+        "reviewBody": "We come here weekly. The food is always excellent, the service is friendly, and Holly is always so great. The club sandwich is our top pick.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Alice C"
+        },
+        "reviewBody": "Fantastic breakfast with top-notch service from Liam. Lovely, welcoming family atmosphere.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      }
+    ],
+    "award": "Endorsed by Two Michelin Star Chef Daniel Clifford: 'They cook everything fresh with local ingredients and the menu selection is interesting. Best for Breakfast.'",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Catering Services",
+        "value": "Available for private events, dinner parties, garden gatherings, or work functions. Includes full-service setup, serving, and clean-up."
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Private Hire",
+        "value": "The venue is available for private hire — perfect for birthdays, celebrations, corporate functions and more."
+      }
     ],
     "subjectOf": [
       {
         "@type": "CreativeWork",
         "name": "Where to eat after Newmarket Races",
         "description": "The Pantry is a popular dining choice for racegoers looking for relaxed post-race meals and drinks near the course."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Best dog-friendly restaurants in Suffolk",
+        "description": "With outdoor seating and a welcoming attitude to four-legged friends, The Pantry is perfect for dog owners visiting Newmarket."
       },
       {
         "@type": "CreativeWork",
