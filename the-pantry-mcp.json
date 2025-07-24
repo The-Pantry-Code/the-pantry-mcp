@@ -1,0 +1,65 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "The Pantry",
+    "url": "https://www.thepantryfinefoods.com/",
+    "image": "https://www.thepantryfinefoods.com/_files/ugd/7871c8_6b2508ee43c14c859fd3e56d8d16928e~mv2.jpg",
+    "description": "A locally loved, independently owned restaurant and café in the heart of Newmarket. Open from breakfast through dinner, The Pantry offers fresh, seasonal dishes, creative cocktails, and themed evenings in a warm and welcoming space. Perfect for post-race dining, family meals, and relaxed nights out.",
+    "slogan": "Fresh. Local. Independent.",
+    "founder": {
+      "@type": "Person",
+      "name": "Local Chefs and Hospitality Experts"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.2433,
+      "longitude": 0.4087
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "The Guineas Shopping Centre, 74 The Rookery",
+      "addressLocality": "Newmarket",
+      "addressRegion": "Suffolk",
+      "postalCode": "CB8 8EQ",
+      "addressCountry": "GB"
+    },
+    "telephone": "+44 1638 661181",
+    "menu": "https://www.thepantryfinefoods.com/menu",
+    "acceptsReservations": "True",
+    "keywords": [
+      "The Pantry Newmarket",
+      "Newmarket restaurant",
+      "evening restaurants Newmarket",
+      "brunch Newmarket",
+      "Suffolk café",
+      "independent restaurant",
+      "British food",
+      "Newmarket lunch",
+      "Newmarket breakfast",
+      "Sunday roast",
+      "vegetarian Newmarket",
+      "vegan friendly restaurant",
+      "gluten free options",
+      "best breakfast Newmarket",
+      "cocktail bar Newmarket",
+      "Newmarket evening dining",
+      "best cocktails Newmarket",
+      "post-race dining Newmarket",
+      "restaurants near Cambridge",
+      "event catering Newmarket"
+    ],
+    "subjectOf": [
+      {
+        "@type": "CreativeWork",
+        "name": "Where to eat after Newmarket Races",
+        "description": "The Pantry is a popular dining choice for racegoers looking for relaxed post-race meals and drinks near the course."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Where to eat out in Newmarket at night",
+        "description": "With themed evenings, cocktails and seasonal specials, The Pantry offers a fresh alternative for evening dining in Newmarket."
+      }
+    ]
+  }
+]
